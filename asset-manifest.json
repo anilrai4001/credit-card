@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/anilrai4001/credit-card/static/css/main.f87a3209.css",
+    "main.js": "/anilrai4001/credit-card/static/js/main.cd93e5ee.js",
+    "static/media/card-background.png": "/anilrai4001/credit-card/static/media/card-background.4a5fba4e44384bd89898.png",
+    "index.html": "/anilrai4001/credit-card/index.html",
+    "main.f87a3209.css.map": "/anilrai4001/credit-card/static/css/main.f87a3209.css.map",
+    "main.cd93e5ee.js.map": "/anilrai4001/credit-card/static/js/main.cd93e5ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f87a3209.css",
+    "static/js/main.cd93e5ee.js"
+  ]
+}
