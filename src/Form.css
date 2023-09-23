@@ -1,0 +1,108 @@
+.Form {
+    /* background-color: lightgoldenrodyellow; */
+    height: 50vh;
+    width: 30vw;
+    position: absolute;
+    top: 25%;
+    right: 200px;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.155em;
+    text-align: left;
+    color: #404040;
+
+    
+
+}
+
+
+input {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.125em;
+    text-align: left;
+
+   outline: none;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.inline-content {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.inline-content>div:nth-of-type(1){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+#month,#year{
+    width: 40px;
+}
+
+.inline-content>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+
+#cvc{
+    width: 60px;
+}
+
+
+#confirm {
+    background-color: #220930;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    width: 100%;
+}
+#confirm:hover,label{
+    cursor: pointer;
+}
+
+
+
+.checks{
+    color: #F81212;
+    font-size: 12px;
+    display: none;
+}
+
+/* CSS */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}

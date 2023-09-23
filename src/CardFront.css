@@ -1,0 +1,91 @@
+.CardFront {
+    background: url(../assets/card-background.png);
+    background-size: cover;
+    border-radius: 10px;
+    width: 420px;
+    height: 250px;
+    position: absolute;
+    top: 75px;
+    left: 225px;
+    z-index: 2;
+    color: white;
+    font-weight: 700;
+    font-family: Roboto;
+
+}
+
+.disc {
+    width: 47px;
+    height: 47px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 33px;
+}
+
+.ring {
+    height: 19px;
+    width: 19px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 46px;
+    left: 97px;
+}
+
+.cardnumber {
+    position: absolute;
+    top: 145px;
+    left: 47px;
+
+    height: 27px;
+
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.18em;
+}
+
+.cardholder {
+    position: absolute;
+    top: 205px;
+    left: 47px;
+
+    height: 11px;
+
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.19em;
+    text-align: left;
+
+}
+
+.month,
+.year,
+.slash {
+    position: absolute;
+    top:204px;
+    
+    height: 13px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.235em;
+    text-align: left;
+
+}
+.month{
+    left: 310px;
+}
+.year{
+    left: 340px;
+}
+.slash{
+    left: 331px;
+}

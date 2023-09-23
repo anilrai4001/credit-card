@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Side from './Side'
+import Main from './Main'
+import { useState } from 'react';
 
 function App() {
+
+  const [cardNumber, setCardNumber] = useState('0000000000000000');
+  const [cardHolder, setCardHolder] = useState('JANE APPLESEED');
+  const [cardMonth, setCardMonth] = useState('00');
+  const [cardYear, setCardYear] = useState('00');
+  const [cardCVC, setCardCVC] = useState('000');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Side cardNumber={cardNumber} cardHolder={cardHolder} cardMonth={cardMonth} cardYear={cardYear} cardCVC={cardCVC} />
+      <Main setCardNumber={setCardNumber} setCardHolder={setCardHolder} setCardMonth={setCardMonth} setCardYear={setCardYear} setCardCVC={setCardCVC}/>
     </div>
   );
 }

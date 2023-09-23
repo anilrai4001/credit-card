@@ -1,0 +1,89 @@
+.CardBack{
+    background: linear-gradient(106.8deg, #FFFFFF 0%, #D9D9D9 103.94%);
+   
+    border-radius: 10px;
+    width: 420px;
+    height: 250px;
+    position: absolute;
+    top: 375px;
+    left: 300px;
+    z-index: 2;
+}
+.blackstrip{
+    position: relative;
+    top: 20px;
+    left: 0;
+    
+    height: 50px;
+    background-color: black;
+    
+}
+.greystrip{
+    position: relative;
+    top: 40px;
+    left:30px;
+    
+    
+    height: 35px;
+    width:360px;
+    background-color: #ADB6BF;
+
+}
+
+.cvc{
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 320px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.235em;
+
+
+}
+.one{
+    position: relative;
+    top:70px;
+    left: 105px;;
+    height: 6px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #AEB5BD;
+    display: inline-block;
+margin: 3px;
+}
+.two{
+    position: relative;
+    top:70px;
+    left: 105px;;
+    height: 6px;
+    width: 40px;
+    border-radius: 4px;
+    background-color: #AEB5BD;
+    display: inline-block;
+margin:3px;
+}
+.three{
+    position: relative;
+    top:70px;
+    left: 105px;;
+    height: 6px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #AEB5BD;
+    display: inline-block;
+    margin:3px;
+}
+.four{
+    position: relative;
+    top:70px;
+    left: 105px;;
+    height: 6px;
+    width: 10px;
+    border-radius: 4px;
+    background-color: #AEB5BD;
+    display: inline-block;
+    margin:3px;
+}
